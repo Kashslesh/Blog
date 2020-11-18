@@ -1,15 +1,11 @@
-const sr = ScrollReveal({
-    duration: 1000,
+const sr = ScrollReveal ({
+    duration: 1500,
     scale: 2,
     reset:true
-
+    
 });
-sr.reveal('.card',{
-    delay: 500
-} );
-
-
-
-ScrollReveal().reveal('text', {
+sr.reveal('.card', {    
+});
+sr.reveal('.text', {
     
 });
